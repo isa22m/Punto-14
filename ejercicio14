@@ -1,0 +1,12 @@
+# Leer el primer número (dividendo)
+numerador = float(input("Introduce el primer número (numerador): "))
+
+# Leer el segundo número (divisor)
+denominador = float(input("Introduce el segundo número (denominador): "))
+
+# Realizar la división y manejar el caso en que el divisor es cero
+if denominador != 0:
+    resultado = numerador / denominador
+    print(f"El resultado de la división es: {resultado}")
+else:
+    print("Error: No se puede dividir por cero.")
